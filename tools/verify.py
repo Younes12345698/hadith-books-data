@@ -136,6 +136,19 @@ def main():
                 error(f"{label}: {len(bad)} texts differ from upstream (first: {bad[:3]})")
             if pack["sections"] != upstream["metadata"]["sections"]:
                 error(f"{label}: section titles differ from upstream")
+            titles_file = ROOT / "titles" / "ar" / f"{book_id}.json"
+            expected_ar = json.loads(titles_file.read_text(encoding="utf-8")) if name == f"ara-{book_id}" and titles_file.exists() else None
+            if (pack.get("sections_ar") or None) != expected_ar:
+                error(f"{label}: sections_ar differs from titles/ar/{book_id}.json")
+            elif expected_ar:
+                english = upstream["metadata"]["sections"]
+                used = {str(h["reference"]["book"]) for h in upstream["hadiths"] if h.get("reference")}
+                for key in expected_ar:
+                    if not english.get(key, "").strip():
+                        error(f"{label}: Arabic title for section {key} which has no English title")
+                for key in used:
+                    if english.get(key, "").strip() and key not in expected_ar:
+                        error(f"{label}: section {key} has an English title but no Arabic one")
             empty = sum(1 for t in texts if not t.strip())
             if edition["count"] != len(numbers) or edition["emptyCount"] != empty:
                 error(f"{label}: count/emptyCount in the index are wrong")

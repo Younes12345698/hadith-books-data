@@ -79,6 +79,7 @@ Texts, hadith numbers, references and grades are reproduced exactly as in that p
   other translations from several websites listed in `upstream/References.md`, and the hadith grades from al-maktaba.org.
 - Grades are the judgements of the named scholars (for example Al-Albani, Shuaib Al Arnaut, Zubair Ali Zai);
   they exist only for Abu Dawud, Tirmidhi, Nasai, Ibn Majah and Malik. Bukhari, Muslim and the Forty Hadith collections have none.
-- Section titles are in English in the upstream data, also for the Arabic editions; they are shown as they are.
+- Section titles are in English in the upstream data, also for the Arabic editions. `titles/ar/` holds Arabic renderings of them
+  written for this repository (not upstream data; see `titles/README.md`); they are stored in the Arabic edition files as `sections_ar`.
 
 See `NOTICE.md` for what this repository does and does not claim, and `TAKEDOWN.md` to request removal.

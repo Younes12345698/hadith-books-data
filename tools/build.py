@@ -39,7 +39,30 @@ def fail(message):
     raise SystemExit(f"BUILD FAILED: {message}")
 
 
-def build_edition_pack(book_id, name, upstream):
+def load_arabic_titles(book_id, upstream):
+    """Arabic renderings of the English section titles (titles/ar/<book>.json) — our own addition, not upstream data.
+
+    Every key must be an upstream section id with a non-empty English title, and every used section that has an
+    English title must be covered, so nothing is invented and nothing is left half-translated.
+    """
+    path = ROOT / "titles" / "ar" / f"{book_id}.json"
+    if not path.exists():
+        return None
+    titles = json.loads(path.read_text(encoding="utf-8"))
+    english = upstream["metadata"]["sections"]
+    for key, value in titles.items():
+        if not isinstance(value, str) or not value.strip():
+            fail(f"titles/ar/{book_id}.json: empty title for section {key}")
+        if not english.get(key, "").strip():
+            fail(f"titles/ar/{book_id}.json: section {key} has no English title upstream")
+    used = {str(h["reference"]["book"]) for h in upstream["hadiths"] if h.get("reference")}
+    missing = sorted(k for k in used if english.get(k, "").strip() and k not in titles)
+    if missing:
+        fail(f"titles/ar/{book_id}.json: no Arabic title for sections {missing}")
+    return titles
+
+
+def build_edition_pack(book_id, name, upstream, sections_ar=None):
     sections = upstream["metadata"]["sections"]
     numbers, texts, seen = [], [], set()
     for hadith in upstream["hadiths"]:
@@ -52,6 +75,8 @@ def build_edition_pack(book_id, name, upstream):
         numbers.append(number)
         texts.append(text)
     pack = {"v": SCHEMA, "id": name, "book": book_id, "sections": sections, "n": numbers, "t": texts}
+    if sections_ar:
+        pack["sections_ar"] = sections_ar
     empty = sum(1 for text in texts if not text.strip())
     return pack, empty
 
@@ -161,7 +186,8 @@ def main():
             if language not in LANGUAGE_CODES:
                 fail(f"{name}: language {language!r} has no ISO code in tools/common.py")
             upstream = pivot if name == pivot_name else load_upstream_json(cache)
-            pack, empty = build_edition_pack(book_id, name, upstream)
+            titles_ar = load_arabic_titles(book_id, upstream) if name == pivot_name else None
+            pack, empty = build_edition_pack(book_id, name, upstream, titles_ar)
             file = write_blob(book_dir, name, pack, out_root)
             referenced.add(file["path"])
             edition = {
@@ -255,7 +281,8 @@ def write_sources(catalogue, published):
         "  other translations from several websites listed in `upstream/References.md`, and the hadith grades from al-maktaba.org.",
         "- Grades are the judgements of the named scholars (for example Al-Albani, Shuaib Al Arnaut, Zubair Ali Zai);",
         "  they exist only for Abu Dawud, Tirmidhi, Nasai, Ibn Majah and Malik. Bukhari, Muslim and the Forty Hadith collections have none.",
-        "- Section titles are in English in the upstream data, also for the Arabic editions; they are shown as they are.",
+        "- Section titles are in English in the upstream data, also for the Arabic editions. `titles/ar/` holds Arabic renderings of them",
+        "  written for this repository (not upstream data; see `titles/README.md`); they are stored in the Arabic edition files as `sections_ar`.",
         "",
         "See `NOTICE.md` for what this repository does and does not claim, and `TAKEDOWN.md` to request removal.",
         "",
