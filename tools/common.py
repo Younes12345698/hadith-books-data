@@ -26,6 +26,10 @@ LANGUAGE_CODES = {
     "Urdu": "ur",
 }
 
+# Writing direction is a property of the language, so it is derived from the language code rather than copied:
+# the upstream catalogue marks some Bengali editions "rtl" by mistake (Bengali is written left to right).
+RTL_LANGUAGE_CODES = {"ar", "ur", "fa", "he"}
+
 # Grade strings are free text in the source (1600+ variants) and are always shown exactly as written.
 # This table only drives the app's filter chips, and ONLY exact matches are classified;
 # everything else is "o" (other) so that a grade is never presented as something it is not.

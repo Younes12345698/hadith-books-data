@@ -164,7 +164,7 @@
      "id": "ben-bukhari",
      "lang": "bn",
      "langName": "Bengali",
-     "direction": "rtl",
+     "direction": "ltr",
      "translator": "Unknown",
      "source": "",
      "comments": "",
@@ -1053,6 +1053,6 @@
    ]
   }
  ],
- "revision": 2,
- "generatedAt": "2026-10-15T08:22:41Z"
+ "revision": 3,
+ "generatedAt": "2026-10-15T08:26:05Z"
 }

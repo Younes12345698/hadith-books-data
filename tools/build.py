@@ -20,6 +20,7 @@ from pathlib import Path
 from common import (
     GRADE_CLASSES,
     LANGUAGE_CODES,
+    RTL_LANGUAGE_CODES,
     ROOT,
     SCHEMA,
     UPSTREAM_REPO,
@@ -167,7 +168,7 @@ def main():
                 "id": name,
                 "lang": LANGUAGE_CODES[language],
                 "langName": language,
-                "direction": entry.get("direction", "ltr"),
+                "direction": "rtl" if LANGUAGE_CODES[language] in RTL_LANGUAGE_CODES else "ltr",
                 "translator": entry.get("author", ""),
                 "source": entry.get("source", ""),
                 "comments": entry.get("comments", ""),
