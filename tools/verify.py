@@ -70,6 +70,9 @@ def main():
         book_id = book["id"]
         pivot = load_upstream_json(edition_cache_path(f"ara-{book_id}"))
         up = pivot["hadiths"]
+        expected_names = json.loads((ROOT / "titles" / "book-names.json").read_text(encoding="utf-8")).get(book_id)
+        if (book.get("names") or None) != expected_names:
+            error(f"{book_id}: names in the index differ from titles/book-names.json")
         core = read_blob(root, book["core"], f"{book_id}/core")
         referenced.add(book["core"]["path"])
         if core:

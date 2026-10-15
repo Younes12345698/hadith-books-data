@@ -12,6 +12,17 @@
    "count": 5274,
    "sectionCount": 43,
    "hasGrades": true,
+   "names": {
+    "ar": "سنن أبي داود",
+    "fr": "Sunan Abi Dawud",
+    "es": "Sunan Abu Dawud",
+    "tr": "Sünen-i Ebu Davud",
+    "ur": "سنن ابی داؤد",
+    "ms": "Sunan Abu Daud",
+    "bn": "সুনানে আবু দাউদ",
+    "fa": "سنن ابوداود",
+    "id": "Sunan Abu Dawud"
+   },
    "core": {
     "path": "data/v1/books/abudawud/core.104ce281.json.gz",
     "bytes": 59304,
@@ -139,6 +150,18 @@
    "count": 7589,
    "sectionCount": 98,
    "hasGrades": false,
+   "names": {
+    "ar": "صحيح البخاري",
+    "de": "Sahīh al-Buchārī",
+    "fr": "Sahih al-Bukhari",
+    "es": "Sahih al-Bujari",
+    "tr": "Sahih-i Buhârî",
+    "ur": "صحیح بخاری",
+    "ms": "Sahih Bukhari",
+    "bn": "সহীহ বুখারী",
+    "fa": "صحیح بخاری",
+    "id": "Shahih Bukhari"
+   },
    "core": {
     "path": "data/v1/books/bukhari/core.c394311f.json.gz",
     "bytes": 52128,
@@ -280,6 +303,9 @@
    "count": 40,
    "sectionCount": 1,
    "hasGrades": false,
+   "names": {
+    "ar": "أربعون حديثاً للشاه ولي الله الدهلوي"
+   },
    "core": {
     "path": "data/v1/books/dehlawi/core.f4b7086d.json.gz",
     "bytes": 308,
@@ -337,6 +363,15 @@
    "count": 4343,
    "sectionCount": 38,
    "hasGrades": true,
+   "names": {
+    "ar": "سنن ابن ماجه",
+    "tr": "Sünen-i İbn Mace",
+    "ur": "سنن ابن ماجہ",
+    "ms": "Sunan Ibnu Majah",
+    "bn": "সুনানে ইবনে মাজাহ",
+    "fa": "سنن ابن ماجه",
+    "id": "Sunan Ibnu Majah"
+   },
    "core": {
     "path": "data/v1/books/ibnmajah/core.2317ad23.json.gz",
     "bytes": 39942,
@@ -450,6 +485,18 @@
    "count": 1858,
    "sectionCount": 62,
    "hasGrades": true,
+   "names": {
+    "ar": "موطأ الإمام مالك",
+    "de": "Al-Muwatta'",
+    "fr": "Al-Muwatta",
+    "es": "Al Muwatta",
+    "tr": "Muvatta",
+    "ur": "موطأ امام مالک",
+    "ms": "Muwatta Imam Malik",
+    "bn": "মুয়াত্তা ইমাম মালিক",
+    "fa": "الموطأ",
+    "id": "Muwatta Malik"
+   },
    "core": {
     "path": "data/v1/books/malik/core.ba6ecd93.json.gz",
     "bytes": 14634,
@@ -563,6 +610,18 @@
    "count": 7563,
    "sectionCount": 57,
    "hasGrades": false,
+   "names": {
+    "ar": "صحيح مسلم",
+    "de": "Sahīh Muslim",
+    "fr": "Sahih Muslim",
+    "es": "Sahih Muslim",
+    "tr": "Sahih-i Müslim",
+    "ur": "صحیح مسلم",
+    "ms": "Sahih Muslim",
+    "bn": "সহীহ মুসলিম",
+    "fa": "صحیح مسلم",
+    "id": "Shahih Muslim"
+   },
    "core": {
     "path": "data/v1/books/muslim/core.b5c71671.json.gz",
     "bytes": 57132,
@@ -704,6 +763,16 @@
    "count": 5765,
    "sectionCount": 52,
    "hasGrades": true,
+   "names": {
+    "ar": "سنن النسائي الصغرى",
+    "es": "Al-Sunan al-Sughra",
+    "tr": "Sünen-i Nesâî",
+    "ur": "سنن نسائی",
+    "ms": "Sunan al-Nasa'i",
+    "bn": "সুনানে নাসাই",
+    "fa": "سنن نسایی",
+    "id": "Sunan an-Nasa'i"
+   },
    "core": {
     "path": "data/v1/books/nasai/core.f31a7c9c.json.gz",
     "bytes": 48703,
@@ -817,6 +886,15 @@
    "count": 42,
    "sectionCount": 1,
    "hasGrades": false,
+   "names": {
+    "ar": "الأربعون النووية",
+    "de": "Vierzig Hadithe (an-Nawawī)",
+    "es": "Los cuarenta hadices de al-Nawawi",
+    "ur": "اربعین نووی",
+    "ms": "Arbain Nawawi",
+    "bn": "ইমাম নববির চল্লিশ হাদিস",
+    "id": "Arbain Nawawi"
+   },
    "core": {
     "path": "data/v1/books/nawawi/core.8947e29e.json.gz",
     "bytes": 316,
@@ -902,6 +980,9 @@
    "count": 40,
    "sectionCount": 1,
    "hasGrades": false,
+   "names": {
+    "ar": "الأربعون القدسية"
+   },
    "core": {
     "path": "data/v1/books/qudsi/core.a5b9f8e3.json.gz",
     "bytes": 306,
@@ -959,6 +1040,15 @@
    "count": 3998,
    "sectionCount": 49,
    "hasGrades": true,
+   "names": {
+    "ar": "سنن الترمذي",
+    "tr": "Sünen-i Tirmîzî",
+    "ur": "سنن ترمذی",
+    "ms": "Sunan al-Tirmizi",
+    "bn": "সুনান আত-তিরমিজী",
+    "fa": "سنن ترمذی",
+    "id": "Jami at-Tirmidzi"
+   },
    "core": {
     "path": "data/v1/books/tirmidhi/core.4a308b85.json.gz",
     "bytes": 36270,
@@ -1053,6 +1143,6 @@
    ]
   }
  ],
- "revision": 6,
- "generatedAt": "2026-10-15T09:19:13Z"
+ "revision": 7,
+ "generatedAt": "2026-10-15T09:21:20Z"
 }

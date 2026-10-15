@@ -62,6 +62,25 @@ def load_arabic_titles(book_id, upstream):
     return titles
 
 
+NAME_LANGUAGES = {"ar", "de", "fr", "es", "tr", "ur", "ms", "bn", "fa", "id"}
+
+
+def load_book_names():
+    """Names of the collections per language (titles/book-names.json); a missing language means "show the English name"."""
+    data = json.loads((ROOT / "titles" / "book-names.json").read_text(encoding="utf-8"))
+    names = {}
+    for book, per_language in data.items():
+        if book.startswith("_"):
+            continue
+        for language, value in per_language.items():
+            if language not in NAME_LANGUAGES:
+                fail(f"titles/book-names.json: unknown language {language!r} for {book}")
+            if not isinstance(value, str) or not value.strip():
+                fail(f"titles/book-names.json: empty name for {book}/{language}")
+        names[book] = per_language
+    return names
+
+
 def build_edition_pack(book_id, name, upstream, sections_ar=None):
     sections = upstream["metadata"]["sections"]
     numbers, texts, seen = [], [], set()
@@ -154,6 +173,7 @@ def main():
     if missing:
         fail(f"publish.json lists editions that do not exist upstream: {sorted(missing)}")
 
+    book_names = load_book_names()
     books_out, referenced = [], set()
     totals = {"editions": 0, "bytes": 0}
     for book_id in sorted(catalogue):
@@ -214,6 +234,7 @@ def main():
                 "count": len(core["h"]),
                 "sectionCount": section_count,
                 "hasGrades": has_grades,
+                **({"names": book_names[book_id]} if book_id in book_names else {}),
                 "core": core_file,
                 "editions": editions_out,
             }
