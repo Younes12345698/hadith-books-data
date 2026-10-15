@@ -1,0 +1,19 @@
+{
+  "_comment": "Editions listed in 'published' are built into data/v1 and offered by the app. Every other edition of the upstream catalogue is HELD: it can only be built locally with --all, and is never written to data/v1.",
+  "published": [
+    "ara-abudawud",
+    "ara-bukhari",
+    "ara-dehlawi",
+    "ara-ibnmajah",
+    "ara-malik",
+    "ara-muslim",
+    "ara-nasai",
+    "ara-nawawi",
+    "ara-qudsi",
+    "ara-tirmidhi"
+  ],
+  "held_reasons": {
+    "translations": "Translators are mostly 'Unknown' and the upstream sources are third-party websites; no permission to redistribute has been shown. Held until each language has been reviewed.",
+    "ara-*1": "Arabic 'diacritics removed' editions: the text differs from the diacritized edition (different source) and no source is stated. Held until provenance is known."
+  }
+}

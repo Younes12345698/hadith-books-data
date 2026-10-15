@@ -1,0 +1,302 @@
+{
+ "schema": 1,
+ "upstream": {
+  "repo": "fawazahmed0/hadith-api",
+  "commit": "df57907be35291c91ad6a6691180e22ca9920784",
+  "license": "Unlicense"
+ },
+ "books": [
+  {
+   "id": "abudawud",
+   "name": "Sunan Abu Dawud",
+   "count": 5274,
+   "sectionCount": 43,
+   "hasGrades": true,
+   "core": {
+    "path": "data/v1/books/abudawud/core.104ce281.json.gz",
+    "bytes": 59304,
+    "sha256": "104ce28144e8e25c06f37fc505ba22e48aa28bafa8690d5357cbb576dfab4ce2",
+    "count": 5274
+   },
+   "editions": [
+    {
+     "id": "ara-abudawud",
+     "lang": "ar",
+     "langName": "Arabic",
+     "direction": "rtl",
+     "translator": "Unknown",
+     "source": "",
+     "comments": "",
+     "count": 5274,
+     "emptyCount": 2,
+     "path": "data/v1/books/abudawud/ara-abudawud.d222a049.json.gz",
+     "bytes": 841703,
+     "sha256": "d222a04929242e40ccb35f520b68b6f4d3bed53c3280e8467bfb7324b6d43193"
+    }
+   ]
+  },
+  {
+   "id": "bukhari",
+   "name": "Sahih al Bukhari",
+   "count": 7589,
+   "sectionCount": 98,
+   "hasGrades": false,
+   "core": {
+    "path": "data/v1/books/bukhari/core.c394311f.json.gz",
+    "bytes": 52128,
+    "sha256": "c394311f8cd208de58eeb1bb5d5108372220392e197bbb2848ced55f4b7c4e91",
+    "count": 7589
+   },
+   "editions": [
+    {
+     "id": "ara-bukhari",
+     "lang": "ar",
+     "langName": "Arabic",
+     "direction": "rtl",
+     "translator": "Unknown",
+     "source": "",
+     "comments": "",
+     "count": 7589,
+     "emptyCount": 9,
+     "path": "data/v1/books/bukhari/ara-bukhari.a85fd661.json.gz",
+     "bytes": 1387694,
+     "sha256": "a85fd661644a47715ce592d12b183a3ae94d0f13d4128545ba9e8e1f4580620a"
+    }
+   ]
+  },
+  {
+   "id": "dehlawi",
+   "name": "Forty Hadith of Shah Waliullah Dehlawi",
+   "count": 40,
+   "sectionCount": 1,
+   "hasGrades": false,
+   "core": {
+    "path": "data/v1/books/dehlawi/core.f4b7086d.json.gz",
+    "bytes": 308,
+    "sha256": "f4b7086dfb491b973e97a15a51412cb3eafb2f3a3ac99a6ea7901f8d465d330e",
+    "count": 40
+   },
+   "editions": [
+    {
+     "id": "ara-dehlawi",
+     "lang": "ar",
+     "langName": "Arabic",
+     "direction": "rtl",
+     "translator": "Shah Waliullah Dehlawi",
+     "source": "",
+     "comments": "",
+     "count": 40,
+     "emptyCount": 0,
+     "path": "data/v1/books/dehlawi/ara-dehlawi.96eab9a2.json.gz",
+     "bytes": 1377,
+     "sha256": "96eab9a2f0ba6e038db70cf5602ef83bac4050edf999b30dee8aaa9878898bae"
+    }
+   ]
+  },
+  {
+   "id": "ibnmajah",
+   "name": "Sunan Ibn Majah",
+   "count": 4343,
+   "sectionCount": 38,
+   "hasGrades": true,
+   "core": {
+    "path": "data/v1/books/ibnmajah/core.2317ad23.json.gz",
+    "bytes": 39942,
+    "sha256": "2317ad230e952cac4fbbb2871d606f818d67f7a35c708f1c94b30be3d808580e",
+    "count": 4343
+   },
+   "editions": [
+    {
+     "id": "ara-ibnmajah",
+     "lang": "ar",
+     "langName": "Arabic",
+     "direction": "rtl",
+     "translator": "Unknown",
+     "source": "",
+     "comments": "",
+     "count": 4343,
+     "emptyCount": 5,
+     "path": "data/v1/books/ibnmajah/ara-ibnmajah.bfa99612.json.gz",
+     "bytes": 584037,
+     "sha256": "bfa99612f2ed6d968d004ada13c4b7125168dada200021e21de533351607435c"
+    }
+   ]
+  },
+  {
+   "id": "malik",
+   "name": "Muwatta Malik",
+   "count": 1858,
+   "sectionCount": 62,
+   "hasGrades": true,
+   "core": {
+    "path": "data/v1/books/malik/core.ba6ecd93.json.gz",
+    "bytes": 14634,
+    "sha256": "ba6ecd935ee0f16c3648b7f4f63c0946466d83c232d1bd9f1845000bd1e1d827",
+    "count": 1858
+   },
+   "editions": [
+    {
+     "id": "ara-malik",
+     "lang": "ar",
+     "langName": "Arabic",
+     "direction": "rtl",
+     "translator": "Unknown",
+     "source": "",
+     "comments": "",
+     "count": 1858,
+     "emptyCount": 29,
+     "path": "data/v1/books/malik/ara-malik.be666b9e.json.gz",
+     "bytes": 278402,
+     "sha256": "be666b9e5a97f015d5f0c70f0bcb4ba813c569eba0a4f37e1d7ad5305ef951b7"
+    }
+   ]
+  },
+  {
+   "id": "muslim",
+   "name": "Sahih Muslim",
+   "count": 7563,
+   "sectionCount": 57,
+   "hasGrades": false,
+   "core": {
+    "path": "data/v1/books/muslim/core.b5c71671.json.gz",
+    "bytes": 57132,
+    "sha256": "b5c71671c6f5ed0e75aaad5305511746b40616a492e5ca731a4bc4b454337f43",
+    "count": 7563
+   },
+   "editions": [
+    {
+     "id": "ara-muslim",
+     "lang": "ar",
+     "langName": "Arabic",
+     "direction": "rtl",
+     "translator": "Unknown",
+     "source": "",
+     "comments": "",
+     "count": 7563,
+     "emptyCount": 203,
+     "path": "data/v1/books/muslim/ara-muslim.85e6adfd.json.gz",
+     "bytes": 1094479,
+     "sha256": "85e6adfdf587732bc271d278e4a9befc1bdb4a1b6e5f23fc5c201fdbf26fd000"
+    }
+   ]
+  },
+  {
+   "id": "nasai",
+   "name": "Sunan an Nasai",
+   "count": 5765,
+   "sectionCount": 52,
+   "hasGrades": true,
+   "core": {
+    "path": "data/v1/books/nasai/core.f31a7c9c.json.gz",
+    "bytes": 48703,
+    "sha256": "f31a7c9ce02a5521f6b40d24e8fc6a60a2f75f077cbdc0ef1f47df19ee409e66",
+    "count": 5765
+   },
+   "editions": [
+    {
+     "id": "ara-nasai",
+     "lang": "ar",
+     "langName": "Arabic",
+     "direction": "rtl",
+     "translator": "Unknown",
+     "source": "",
+     "comments": "",
+     "count": 5765,
+     "emptyCount": 86,
+     "path": "data/v1/books/nasai/ara-nasai.f75a824b.json.gz",
+     "bytes": 716074,
+     "sha256": "f75a824b065f734f86c8f7ec35ef3bcaa7e66956cf109365f4f2cd4509d9ee8d"
+    }
+   ]
+  },
+  {
+   "id": "nawawi",
+   "name": "Forty Hadith of an-Nawawi",
+   "count": 42,
+   "sectionCount": 1,
+   "hasGrades": false,
+   "core": {
+    "path": "data/v1/books/nawawi/core.8947e29e.json.gz",
+    "bytes": 316,
+    "sha256": "8947e29e4b41085830d6cf1f298abac77e712e9fc256f973a00f29538a8d5a89",
+    "count": 42
+   },
+   "editions": [
+    {
+     "id": "ara-nawawi",
+     "lang": "ar",
+     "langName": "Arabic",
+     "direction": "rtl",
+     "translator": "Imam Nawawi",
+     "source": "",
+     "comments": "",
+     "count": 42,
+     "emptyCount": 0,
+     "path": "data/v1/books/nawawi/ara-nawawi.a2849b11.json.gz",
+     "bytes": 9410,
+     "sha256": "a2849b11ee2d7cec2cf7cc6449f7427530f4bef9b2d54573e9deb716581313ea"
+    }
+   ]
+  },
+  {
+   "id": "qudsi",
+   "name": "Forty Hadith Qudsi",
+   "count": 40,
+   "sectionCount": 1,
+   "hasGrades": false,
+   "core": {
+    "path": "data/v1/books/qudsi/core.a5b9f8e3.json.gz",
+    "bytes": 306,
+    "sha256": "a5b9f8e3e29e2c4901a68c059bfb55dbe4f8e0ca1c9c7ca3f219fad972f97d81",
+    "count": 40
+   },
+   "editions": [
+    {
+     "id": "ara-qudsi",
+     "lang": "ar",
+     "langName": "Arabic",
+     "direction": "rtl",
+     "translator": "Unknown",
+     "source": "",
+     "comments": "",
+     "count": 40,
+     "emptyCount": 0,
+     "path": "data/v1/books/qudsi/ara-qudsi.1d26a346.json.gz",
+     "bytes": 10130,
+     "sha256": "1d26a346b9763ea316b5695d45419cc314647a115ce12de54444b5dfbfba2b5f"
+    }
+   ]
+  },
+  {
+   "id": "tirmidhi",
+   "name": "Jami At Tirmidhi",
+   "count": 3998,
+   "sectionCount": 49,
+   "hasGrades": true,
+   "core": {
+    "path": "data/v1/books/tirmidhi/core.4a308b85.json.gz",
+    "bytes": 36270,
+    "sha256": "4a308b8532bc4d7ddb7c7dd01c86f951f91a4858a4ad1c88beef221255a359a0",
+    "count": 3998
+   },
+   "editions": [
+    {
+     "id": "ara-tirmidhi",
+     "lang": "ar",
+     "langName": "Arabic",
+     "direction": "rtl",
+     "translator": "Unknown",
+     "source": "",
+     "comments": "",
+     "count": 3998,
+     "emptyCount": 74,
+     "path": "data/v1/books/tirmidhi/ara-tirmidhi.49e9bdaf.json.gz",
+     "bytes": 828952,
+     "sha256": "49e9bdaf47c9cdf73a457953352893e71b1d2a4023f5bdb13f9feed59df674d1"
+    }
+   ]
+  }
+ ],
+ "revision": 1,
+ "generatedAt": "2026-10-14T21:51:20Z"
+}
