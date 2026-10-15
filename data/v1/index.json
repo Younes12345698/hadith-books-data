@@ -29,9 +29,9 @@
      "comments": "",
      "count": 5274,
      "emptyCount": 2,
-     "path": "data/v1/books/abudawud/ara-abudawud.2f41487a.json.gz",
-     "bytes": 842299,
-     "sha256": "2f41487a56532519679c876ccdb9e18ce1f6a92bb4d94c66940bed8ca0870bb8"
+     "path": "data/v1/books/abudawud/ara-abudawud.0bc30afd.json.gz",
+     "bytes": 842255,
+     "sha256": "0bc30afd72ef78dad4f63d84e44a081494e5f5e9a7c81653b9a37f574ac7954a"
     },
     {
      "id": "ben-abudawud",
@@ -156,9 +156,9 @@
      "comments": "",
      "count": 7589,
      "emptyCount": 9,
-     "path": "data/v1/books/bukhari/ara-bukhari.3d27f7a2.json.gz",
-     "bytes": 1388854,
-     "sha256": "3d27f7a2338096df3eea66971a7f09b5261cc35f1a0779a4f2f9fcf748852287"
+     "path": "data/v1/books/bukhari/ara-bukhari.340b6f82.json.gz",
+     "bytes": 1388863,
+     "sha256": "340b6f82c987a63ebbc0811af030f9d786cca7b60d5e2d710f7d19e71e7d35cc"
     },
     {
      "id": "ben-bukhari",
@@ -354,9 +354,9 @@
      "comments": "",
      "count": 4343,
      "emptyCount": 5,
-     "path": "data/v1/books/ibnmajah/ara-ibnmajah.2b6a6f14.json.gz",
-     "bytes": 584550,
-     "sha256": "2b6a6f141265b68bf9bba5c064c77774bc22f072dd3115fb0057d83c705ec08d"
+     "path": "data/v1/books/ibnmajah/ara-ibnmajah.91e88c55.json.gz",
+     "bytes": 584517,
+     "sha256": "91e88c555ac4dbcdd5a72614a48a15240aa93b645cce823d3c2b1d29ffb7923b"
     },
     {
      "id": "ben-ibnmajah",
@@ -467,9 +467,9 @@
      "comments": "",
      "count": 1858,
      "emptyCount": 29,
-     "path": "data/v1/books/malik/ara-malik.52300eea.json.gz",
-     "bytes": 279120,
-     "sha256": "52300eea71897a1322d15810c3dc8665d1e11239258c403bde3d7a363e2c0112"
+     "path": "data/v1/books/malik/ara-malik.c29dd113.json.gz",
+     "bytes": 279126,
+     "sha256": "c29dd113b7c7e80c62a7604aa7cb288c973c178c11cd32e789e7398de961e179"
     },
     {
      "id": "ben-malik",
@@ -580,9 +580,9 @@
      "comments": "",
      "count": 7563,
      "emptyCount": 203,
-     "path": "data/v1/books/muslim/ara-muslim.3dedff6b.json.gz",
-     "bytes": 1095291,
-     "sha256": "3dedff6b2de511debd00234e914d1bf72808f4a0493dc5ac8c44d49b4c332e91"
+     "path": "data/v1/books/muslim/ara-muslim.e3a26a35.json.gz",
+     "bytes": 1095316,
+     "sha256": "e3a26a351b5f0bd4824c8b3afae9112616e08f0b86f01d1e220ceed7a450bf20"
     },
     {
      "id": "ben-muslim",
@@ -721,9 +721,9 @@
      "comments": "",
      "count": 5765,
      "emptyCount": 86,
-     "path": "data/v1/books/nasai/ara-nasai.b1e04aac.json.gz",
-     "bytes": 716730,
-     "sha256": "b1e04aacde1f8c525102d31feb348d651da20904d491dfac6a442a0ccc98cb1c"
+     "path": "data/v1/books/nasai/ara-nasai.b35ae867.json.gz",
+     "bytes": 716717,
+     "sha256": "b35ae8673e1103eae806c557d0504025ddd3aca94ea38937171b7b9e0f2546ff"
     },
     {
      "id": "ben-nasai",
@@ -976,9 +976,9 @@
      "comments": "",
      "count": 3998,
      "emptyCount": 74,
-     "path": "data/v1/books/tirmidhi/ara-tirmidhi.b2e484af.json.gz",
-     "bytes": 829562,
-     "sha256": "b2e484afa620f78fbb71dc3df560092d403909a6b2dcc4b0f2f5d844b8d25a62"
+     "path": "data/v1/books/tirmidhi/ara-tirmidhi.abf5ea23.json.gz",
+     "bytes": 829646,
+     "sha256": "abf5ea23ab59b85abd9e7e39af5b761c87983267f9fddc59eef981e82b01635a"
     },
     {
      "id": "ben-tirmidhi",
@@ -1053,6 +1053,6 @@
    ]
   }
  ],
- "revision": 4,
- "generatedAt": "2026-10-15T08:41:03Z"
+ "revision": 6,
+ "generatedAt": "2026-10-15T09:19:13Z"
 }

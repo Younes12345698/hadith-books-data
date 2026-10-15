@@ -11,7 +11,7 @@ This repository **does not claim ownership** of the hadith texts, the section ti
 - The Arabic texts are the words of the Prophet ﷺ and of authors who died centuries ago. What may carry rights is the digital edition (diacritics, punctuation, formatting, compilation).
 - **Translations are published here on the same basis** (the upstream project's Unlicense). The upstream author states they come from third-party websites listed in `upstream/References.md`; for most of them the translator is recorded as `Unknown`, and for a few the translator is named (for example Muhsin Khan for English Bukhari, Abdul Hamid Siddiqui for English Muslim, and isnad.link for some Russian editions). **No permission from those sources or translators is documented upstream, and this repository has not verified it.** The owner decided to rely on the upstream licence; anyone who owns rights in a translation can have it removed (see `TAKEDOWN.md`).
 - Grades are the published judgements of the named scholars and are attributed to them.
-- **Arabic section titles** (`titles/ar/`) are **Arabic renderings of the upstream English titles, written for this repository**; they are not upstream data and not a copy of a printed edition. The original English titles are kept next to them.
+- **Arabic section titles** (`titles/ar/`) are the original Arabic names of the sections as published by sunnah.com (via the dataset AhmedBaset/hadith-json, which has no licence file), matched one-to-one with the upstream English titles. They are not translations made here (see `titles/README.md`). The original English titles are kept next to them.
 
 ## No warranty
 
