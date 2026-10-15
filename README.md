@@ -1,8 +1,8 @@
 # hadith-books-data
 
-Data files for the **Hadith Books** feature of the Muflihin Pro app: the Arabic texts of ten hadith collections, with their sections, references and (where the source has them) the grades given by named scholars.
+Data files for the **Hadith Books** feature of the Muflihin Pro app: the Arabic texts of ten hadith collections and their translations (54 editions in 8 languages), with sections, references and (where the source has them) the grades given by named scholars.
 
-مستودع بيانات ميزة «كتب الحديث» في تطبيق Muflihin Pro: النصوص العربية لعشر مجموعات حديثية مع الأقسام والمراجع ودرجات الحديث المنسوبة لأصحابها حيث وُجدت في المصدر.
+مستودع بيانات ميزة «كتب الحديث» في تطبيق Muflihin Pro: النصوص العربية لعشر مجموعات حديثية وترجماتها (54 إصداراً بثماني لغات) مع الأقسام والمراجع ودرجات الحديث المنسوبة لأصحابها حيث وُجدت في المصدر.
 
 ## What is here
 
@@ -19,7 +19,7 @@ Data files for the **Hadith Books** feature of the Muflihin Pro app: the Arabic 
 | Forty Hadith Qudsi | 40 | none |
 | Forty Hadith of Shah Waliullah Dehlawi | 40 | none |
 
-The data is a faithful, compact repackaging of [fawazahmed0/hadith-api](https://github.com/fawazahmed0/hadith-api) (commit pinned in `upstream/COMMIT`). Nothing is added, corrected or translated here: texts, numbers, references and grades are copied exactly. Gaps in the source stay gaps (some hadiths have an empty text there; the app says so instead of filling them).
+The data is a faithful, compact repackaging of [fawazahmed0/hadith-api](https://github.com/fawazahmed0/hadith-api) (commit pinned in `upstream/COMMIT`). Nothing is added, corrected or translated here: texts, translations, numbers, references and grades are copied exactly. Gaps in the source stay gaps (some hadiths have an empty text there; the app says so instead of filling them).
 
 ## Layout
 

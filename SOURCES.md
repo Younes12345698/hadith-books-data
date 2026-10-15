@@ -9,15 +9,69 @@ Texts, hadith numbers, references and grades are reproduced exactly as in that p
 | Edition | Collection | Language | Author field (as upstream) | Source field (as upstream) |
 |---|---|---|---|---|
 | `ara-abudawud` | Sunan Abu Dawud | Arabic | Unknown | - |
+| `ben-abudawud` | Sunan Abu Dawud | Bengali | Unknown | - |
+| `eng-abudawud` | Sunan Abu Dawud | English | Unknown | - |
+| `fra-abudawud` | Sunan Abu Dawud | French | Unknown | - |
+| `ind-abudawud` | Sunan Abu Dawud | Indonesian | Unknown | - |
+| `rus-abudawud` | Sunan Abu Dawud | Russian | Unknown | https://isnad.link/ |
+| `tur-abudawud` | Sunan Abu Dawud | Turkish | Unknown | - |
+| `urd-abudawud` | Sunan Abu Dawud | Urdu | Unknown | - |
 | `ara-bukhari` | Sahih al Bukhari | Arabic | Unknown | - |
+| `ben-bukhari` | Sahih al Bukhari | Bengali | Unknown | - |
+| `eng-bukhari` | Sahih al Bukhari | English | Muhsin Khan | - |
+| `fra-bukhari` | Sahih al Bukhari | French | Unknown | - |
+| `ind-bukhari` | Sahih al Bukhari | Indonesian | Unknown | - |
+| `rus-bukhari` | Sahih al Bukhari | Russian | Abdullah Nirsha And Editors Of Daura.com | https://isnad.link/book/sahih-al-buhari |
+| `tam-bukhari` | Sahih al Bukhari | Tamil | Unknown | - |
+| `tur-bukhari` | Sahih al Bukhari | Turkish | Unknown | - |
+| `urd-bukhari` | Sahih al Bukhari | Urdu | Unknown | - |
 | `ara-dehlawi` | Forty Hadith of Shah Waliullah Dehlawi | Arabic | Shah Waliullah Dehlawi | - |
+| `eng-dehlawi` | Forty Hadith of Shah Waliullah Dehlawi | English | Shah Waliullah Dehlawi | - |
+| `fra-dehlawi` | Forty Hadith of Shah Waliullah Dehlawi | French | Unknown | - |
 | `ara-ibnmajah` | Sunan Ibn Majah | Arabic | Unknown | - |
+| `ben-ibnmajah` | Sunan Ibn Majah | Bengali | Unknown | - |
+| `eng-ibnmajah` | Sunan Ibn Majah | English | Unknown | - |
+| `fra-ibnmajah` | Sunan Ibn Majah | French | Unknown | - |
+| `ind-ibnmajah` | Sunan Ibn Majah | Indonesian | Unknown | - |
+| `tur-ibnmajah` | Sunan Ibn Majah | Turkish | Unknown | - |
+| `urd-ibnmajah` | Sunan Ibn Majah | Urdu | Unknown | - |
 | `ara-malik` | Muwatta Malik | Arabic | Unknown | - |
+| `ben-malik` | Muwatta Malik | Bengali | Unknown | - |
+| `eng-malik` | Muwatta Malik | English | Unknown | - |
+| `fra-malik` | Muwatta Malik | French | Unknown | - |
+| `ind-malik` | Muwatta Malik | Indonesian | Unknown | - |
+| `tur-malik` | Muwatta Malik | Turkish | Unknown | - |
+| `urd-malik` | Muwatta Malik | Urdu | Unknown | - |
 | `ara-muslim` | Sahih Muslim | Arabic | Unknown | - |
+| `ben-muslim` | Sahih Muslim | Bengali | Unknown | - |
+| `eng-muslim` | Sahih Muslim | English | Abdul Hamid Siddiqui | - |
+| `fra-muslim` | Sahih Muslim | French | Unknown | - |
+| `ind-muslim` | Sahih Muslim | Indonesian | Unknown | - |
+| `rus-muslim` | Sahih Muslim | Russian | Unknown | https://isnad.link/ |
+| `tam-muslim` | Sahih Muslim | Tamil | Unknown | - |
+| `tur-muslim` | Sahih Muslim | Turkish | Unknown | - |
+| `urd-muslim` | Sahih Muslim | Urdu | Unknown | - |
 | `ara-nasai` | Sunan an Nasai | Arabic | Unknown | - |
+| `ben-nasai` | Sunan an Nasai | Bengali | Unknown | - |
+| `eng-nasai` | Sunan an Nasai | English | Unknown | - |
+| `fra-nasai` | Sunan an Nasai | French | Unknown | - |
+| `ind-nasai` | Sunan an Nasai | Indonesian | Unknown | - |
+| `tur-nasai` | Sunan an Nasai | Turkish | Unknown | - |
+| `urd-nasai` | Sunan an Nasai | Urdu | Unknown | - |
 | `ara-nawawi` | Forty Hadith of an-Nawawi | Arabic | Imam Nawawi | - |
+| `ben-nawawi` | Forty Hadith of an-Nawawi | Bengali | Imam Nawawi | - |
+| `eng-nawawi` | Forty Hadith of an-Nawawi | English | Imam Nawawi | - |
+| `fra-nawawi` | Forty Hadith of an-Nawawi | French | Unknown | - |
+| `tur-nawawi` | Forty Hadith of an-Nawawi | Turkish | Imam Nawawi | - |
 | `ara-qudsi` | Forty Hadith Qudsi | Arabic | Unknown | - |
+| `eng-qudsi` | Forty Hadith Qudsi | English | Unknown | - |
+| `fra-qudsi` | Forty Hadith Qudsi | French | Unknown | - |
 | `ara-tirmidhi` | Jami At Tirmidhi | Arabic | Unknown | - |
+| `ben-tirmidhi` | Jami At Tirmidhi | Bengali | Unknown | - |
+| `eng-tirmidhi` | Jami At Tirmidhi | English | Unknown | - |
+| `ind-tirmidhi` | Jami At Tirmidhi | Indonesian | Unknown | - |
+| `tur-tirmidhi` | Jami At Tirmidhi | Turkish | Unknown | - |
+| `urd-tirmidhi` | Jami At Tirmidhi | Urdu | Unknown | - |
 
 ## What the upstream project says about its own sources
 
